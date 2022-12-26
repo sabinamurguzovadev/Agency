@@ -155,32 +155,21 @@ header .box .icon {
   color: #fff;
   padding: 40px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 778px) {
   #services h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
   #services h2 {
-    font-size: 20px;
+    font-size: 35px;
   }
   #services h4 {
-    font-size: 17px;
-  }
-  #services h3 {
-    font-size: 25px;
+    font-size: 20px;
+    margin-bottom: 70px;
   }
 }
-@media screen and (max-width: 500px) {
-  #services h1 {
-    font-size: 25px;
-  }
-  #services h2 {
-    font-size: 15px;
-  }
+@media screen and (max-width: 330px) {
   #services h4 {
-    font-size: 17px;
-  }
-  #services h3 {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 
