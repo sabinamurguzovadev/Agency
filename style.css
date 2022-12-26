@@ -220,15 +220,9 @@ header .box .icon {
   opacity: 0.9;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
-  #portfolio h1 {
-    font-size: 30px;
-  }
-  #portfolio .textbox h2 {
-    font-size: 25px;
-  }
-  #portfolio .textbox h3 {
-    font-size: 20px;
+@media screen and (max-width: 779px) {
+  #portfolio .imgbox {
+    width: 100%;
   }
 }
 
